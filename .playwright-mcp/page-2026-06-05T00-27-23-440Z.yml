@@ -1,0 +1,57 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e5]: Starterkit
+      - separator [ref=e6]
+      - navigation [ref=e7]:
+        - paragraph [ref=e8]: 메뉴
+        - link "대시보드" [ref=e9] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e10]
+          - text: 대시보드
+        - link "분석" [ref=e15] [cursor=pointer]:
+          - /url: /dashboard/analytics
+          - img [ref=e16]
+          - text: 분석
+        - link "사용자" [ref=e17] [cursor=pointer]:
+          - /url: /dashboard/users
+          - img [ref=e18]
+          - text: 사용자
+        - link "설정" [ref=e23] [cursor=pointer]:
+          - /url: /dashboard/settings
+          - img [ref=e24]
+          - text: 설정
+    - generic [ref=e27]:
+      - banner [ref=e28]:
+        - generic [ref=e29]:
+          - button "테마 전환" [ref=e30]:
+            - img
+            - generic [ref=e31]: 테마 전환
+          - button "AD" [ref=e32]:
+            - generic [ref=e34]: AD
+      - main [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - heading "분석" [level=1] [ref=e38]
+            - paragraph [ref=e39]: 서비스 사용 현황 및 통계를 확인하세요.
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e43]: 총 방문자
+              - generic [ref=e44]:
+                - paragraph [ref=e45]: 12,345
+                - paragraph [ref=e46]: 전월 대비 +8.2%
+            - generic [ref=e47]:
+              - generic [ref=e49]: 페이지뷰
+              - generic [ref=e50]:
+                - paragraph [ref=e51]: 48,210
+                - paragraph [ref=e52]: 전월 대비 +12.5%
+            - generic [ref=e53]:
+              - generic [ref=e55]: 평균 체류 시간
+              - generic [ref=e56]:
+                - paragraph [ref=e57]: 3분 42초
+                - paragraph [ref=e58]: 전월 대비 -1.1%
+          - generic [ref=e59]:
+            - generic [ref=e61]: 월별 방문자 추이
+            - paragraph [ref=e63]: 차트 컴포넌트를 여기에 추가하세요.
+  - button "Open Next.js Dev Tools" [ref=e69] [cursor=pointer]:
+    - img [ref=e70]

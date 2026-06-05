@@ -1,0 +1,16 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: 로그인
+    - generic [ref=e6]:
+      - text: 이메일과 비밀번호를 입력해주세요.
+      - text: "데모: admin@example.com / password123"
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]: 이메일
+      - textbox "이메일" [ref=e11]:
+        - /placeholder: admin@example.com
+    - generic [ref=e12]:
+      - generic [ref=e13]: 비밀번호
+      - textbox "비밀번호" [ref=e14]:
+        - /placeholder: ••••••••
+    - button "로그인" [ref=e15]
